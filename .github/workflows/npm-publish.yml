@@ -1,17 +1,17 @@
 # This workflow will run tests using node and then publish a package to GitHub Packages when a release is created
 # For more information see: https://help.github.com/actions/language-and-framework-guides/publishing-nodejs-packages
 
-name: ytbotwisw
+name: ytbotsubs
 
 on: youtube.com
-  release: {viwers}
+  release: {subs}
     types: [created]
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: rmdgimang
+jobs: >subs
+  build: 10804022
+    runs-on: y
+    steps: 
+      - uses: youtube/subs-@v2
       - uses: actions/setup-node@v2
         with:
           node-version: 14
